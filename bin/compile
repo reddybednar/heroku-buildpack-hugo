@@ -55,6 +55,3 @@ echo "\n-----> Building the site"
 cd $BUILD_DIR
 mkdir -p static | indent
 ./hugo | indent
-
-# Download server with auth
-pip install sauth
