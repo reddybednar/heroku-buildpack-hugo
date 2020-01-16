@@ -3,5 +3,5 @@
 cat << EOF
 ---
 default_process_types:
-  web: "cd public && python -m SimpleHTTPServer \$PORT"
+  web: "cd public && sauth \$AUTH_USERNAME \$AUTH_PASSWORD 0.0.0.0 \$PORT"
 EOF
